@@ -42,7 +42,7 @@ function getContent(data, contentHeading) {
 	let contentLength = contentObject["hk"].length;
 	let table = $("<table>", {"class":"table"});
 	let tableHeading = $("<tr>");
-	tableHeading.append($("<th>", {"class":"headingMyanmar"}).text("Myanmar"));
+	tableHeading.append($("<th>", {"class":"headingMyanmar"}).text("မြန်မာ"));
 	tableHeading.append($("<th>", {"class":"headingHK"}).text("Hongkong"));
 	table.append(tableHeading);
 	for (let z=0;z<contentLength ;z++) {

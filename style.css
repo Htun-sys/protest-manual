@@ -65,11 +65,13 @@
 .headingMyanmar {
 	background-color: #d9534f;
 	font-size: 1.2rem;
+	text-align: center;
 }
 
 .headingHK {
 	background-color: #f8d568;
 	font-size: 1.2rem;
+	text-align: center;
 }
 
 .mm {
