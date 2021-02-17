@@ -1,0 +1,122 @@
+.card {
+	margin: 20px 5px;
+	background-color: #f7f7f7;
+}
+
+.card-title {
+	font-size: 1.6rem;
+	font-weight: bold;
+}
+
+.card-text {
+	padding-left: 10px;
+	font-size: 1.4rem;
+}
+
+.contentheading {
+	font-size: 1.2rem;
+	padding-top: 0px;
+	padding-bottom: 5px;
+	padding-left: 25px;
+	color: blue;
+	margin: 0;
+}
+
+.contentheading:hover {
+     font-style: italic;
+     background-color: #C0C0C0;
+}
+
+#home {
+	font-size: 1.1rem;
+	font-style: bold;
+}
+
+.prev {
+	float: left;
+	padding-right: 10px;
+}
+
+.next {
+	float: right;
+	padding-left: 10px;
+}
+
+.prev, .next {
+	border: 1px solid #d9534f;
+	padding: 0px 15px;	
+	background-color: #d9534f;
+	border-radius: 5px;
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.prev:hover, .next:hover {
+	opacity: 0.3;
+}
+
+
+.table {
+	margin-top: 10px;
+	border: 2px solid black;
+}
+
+.headingMyanmar {
+	background-color: #d9534f;
+	font-size: 1.2rem;
+}
+
+.headingHK {
+	background-color: #f8d568;
+	font-size: 1.2rem;
+}
+
+.mm {
+	color: white;
+	font-size: 1rem;
+	font-weight: 500;
+	background-color: #d9534f;
+	width: 50%;
+}
+
+.hk {
+	font-weight: 600;
+	background-color: #f8d568;
+	width: 50%;
+}
+
+.footerDiv {
+	background-color: rgba(0, 0, 0, 0.2)
+}
+
+.navigatorDiv {
+	height: 50px;
+}
+
+
+@media screen and (max-width: 500px) {
+.mm, .hk {
+	font-size: 0.8rem;
+}
+
+.card-title {
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding: 0px;
+	margin-bottom: 5px;
+}
+.card-text {
+	padding-left: 10px;
+	font-size: 1.1rem;
+	margin: 0px;
+}
+.contentheading {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 25px;
+	color: blue;
+	margin: 0;
+}
+
+}
