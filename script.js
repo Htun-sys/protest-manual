@@ -51,9 +51,9 @@ function getContent(data, contentHeading) {
 		let tableRow = $("<tr>");
 		tableRow.append($("<td>",{
 			"class":"mm"
-		}).text(MM)).append($("<td>",{
+		}).html(MM)).append($("<td>",{
 			"class":"hk"
-		}).text(HK));
+		}).html(HK));
 		table.append(tableRow);	
 	}
 	$("section").append(table);
