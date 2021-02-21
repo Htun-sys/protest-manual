@@ -1,12 +1,19 @@
 $(document).ready( function() {
-	let url = "https://htun-sys.github.io/cdm-json/data/test.json";
+	let url = "https://htun-sys.github.io/cdm-json/data/protest_manual.json";
 	$.getJSON(url, function(data) {
 		getMenuItems(data);
 		$("#home").on("click", function() {
 			getMenuItems(data);
 		});
-	});//endof getJSON
 
+		//test
+		// function getToObj(contentHeading) {
+		// 	var dataForObj = data;
+		// 	getContent(dataForObj, contentHeading);
+		// }
+		//endtest
+
+	});//endof getJSON
 
 });
 
